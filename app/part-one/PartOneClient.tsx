@@ -247,7 +247,7 @@ export default function PartOneClient({ userId, initialData }: Props) {
         </div>
       </header>
 
-      <div className="flex flex-1 max-w-5xl mx-auto w-full">
+      <div className="flex flex-col md:flex-row flex-1 max-w-5xl mx-auto w-full">
         {/* ── Sidebar ──────────────────────────────────────── */}
         <aside className="hidden md:flex flex-col w-56 shrink-0 border-r border-neutral-800 py-6 px-3 gap-1">
           {runes.map((r, i) => {
@@ -330,7 +330,7 @@ export default function PartOneClient({ userId, initialData }: Props) {
         </div>
 
         {/* ── Content ──────────────────────────────────────── */}
-        <main className="flex-1 overflow-y-auto">
+        <main className="flex-1 md:overflow-y-auto min-w-0">
           <div className="px-6 md:px-10 py-8 max-w-2xl">
             {/* Rune header */}
             <div className="flex items-start gap-5 mb-6">
