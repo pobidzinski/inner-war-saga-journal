@@ -357,7 +357,7 @@ export default function PartOneClient({ userId, initialData }: Props) {
             {/* KENAZ */}
             {rune.id === 'kenaz' && (
               <div className="space-y-5">
-                {rune.fields.map((field) => (
+                {rune.fields?.map((field) => (
                   <FieldBlock
                     key={field.key}
                     label={field.label}
@@ -386,7 +386,7 @@ export default function PartOneClient({ userId, initialData }: Props) {
             {/* FEHU / ANSUZ / RAIDO / HAGALAZ — standard fields */}
             {['fehu', 'ansuz', 'raido', 'hagalaz'].includes(rune.id) && (
               <div className="space-y-5">
-                {rune.fields.map((field) => (
+                {rune.fields?.map((field) => (
                   <FieldBlock key={field.key} label={field.label}>
                     <Textarea
                       value={state[dbKey(rune.id, field.key)] as string}
