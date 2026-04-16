@@ -267,6 +267,11 @@ export default function DayEntryClient({
             />
             <div>
               <FieldLabel>{sec.fields[0].label}</FieldLabel>
+              {sec.hint && (
+                <p className="text-xs text-amber-400 italic mb-2 leading-relaxed">
+                  {sec.hint}
+                </p>
+              )}
               <Textarea
                 value={state.plan}
                 onChange={(v) => handleChange('plan', v)}
@@ -404,7 +409,7 @@ export default function DayEntryClient({
                 )}
 
                 {sub.hint && (
-                  <p className="text-xs text-neutral-600 italic mb-3">
+                  <p className="text-xs text-amber-400 italic mb-3 leading-relaxed">
                     {sub.hint}
                   </p>
                 )}

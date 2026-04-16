@@ -393,6 +393,7 @@ W części II tego Dziennika czeka Cię do odrobienia aż 90 lekcji na ten temat
       description: `Znajdziesz tutaj przestrzeń na spisanie swoich planów i założeń na dany dzień. Zależnie od tego, jaką jesteś osobą – może to być bardzo szczegółowy plan lub luźny spis zadań czy kierunków, oparty na konkretnych godzinach, co najbardziej Ci służy! Odkrywaj z biegiem kolejnych dni, co najbardziej Ci służy!
 
 Pamiętaj o większym planie. O tym, co zostało spisane w części I. Czy te zadania i priorytety są spójne z Twoimi wartościami, wizją i kierunkiem rozwoju? Na pewnym etapie najważniejszą kwestią staje się odejmowanie zbędnych spraw, a nie dodawanie kolejnych.`,
+      hint: "Zamiast listy zadań — napisz INTENCJĘ dnia. Jakim chcesz być? Co chcesz poczuć? Jaką zasadę chcesz dziś wcielić? Zadania to maximum 1-2 priorytety, nie lista życzeń.",
       fields: [
         {
           label: "Plan na dzisiaj:",
@@ -517,6 +518,7 @@ Każdego dnia porównaj stronę I oraz stronę II. Jak bardzo różnią się od 
           title: "JAK MOGĘ TO URZECZYWISTNIĆ?",
           description:
             "Spisz w tym miejscu pomysły i wizje, w jaki sposób możesz te wszystkie wnioski urzeczywistnić.",
+          hint: "To NIE jest lista action items. Zapytaj siebie: co dziś podpowiedział mi wewnętrzny głos? Co czułem, że muszę zrobić — i dlaczego to ma głębsze znaczenie niż zwykłe zadanie?",
           questions: [
             "Jakie konkretne działania i zmiany możesz zastosować, aby ta wiedza nie pozostała jedynie na kartce, a stała się Twoją nową rzeczywistością?",
             "Jak to wszystko możesz odnieść do swojej baśniowej wizji?",
@@ -598,6 +600,7 @@ Każdego dnia porównaj stronę I oraz stronę II. Jak bardzo różnią się od 
           title: "Z KIM SIĘ IDENTYFIKUJĘ?",
           description:
             "W tym miejscu możesz zarówno zdecydować, kto dzisiaj będzie grać główne skrzypce, jak i spisać wnioski oraz obserwacje, jak to się potoczyło w rzeczywistości.",
+          hint: "Wunjo pyta o Twoją wewnętrzną drużynę — masz w sobie wiele wersji siebie (twardy facet, przestraszone dziecko, lider, ofiara, twórca...). Każda z nich chce przejąć stery w różnych momentach dnia. To ćwiczenie polega na tym, żeby świadomie nazwać KTÓRA wersja dominowała — i czy to był Twój świadomy wybór, czy ona po prostu przejęła kontrolę bez pytania. Przykład: 'Dziś przez większość dnia rządził Lider który bierze sprawy w swoje ręce — ale przy rozmowie z żoną nieświadomie oddałem stery Przestraszonemu Dziecku.' Nie oceniaj — obserwuj i nazywaj.",
           questions: [
             "Z kim się dzisiaj identyfikujesz?",
             "Która wersja Ciebie dzisiaj dominuje?",
@@ -631,6 +634,7 @@ Każdego dnia porównaj stronę I oraz stronę II. Jak bardzo różnią się od 
           runeSymbol: "ᛉ",
           runeName: "ALGIZ",
           title: "GRAM, ŻEBY WYGRAĆ CZY ABY NIE PRZEGRAĆ?",
+          hint: "Algiz to postawa ochrony i granic. Odpowiedz na dwa pytania: (1) W których momentach dnia grałem żeby WYGRAĆ — i co mnie do tego napędzało? (2) W których grałem żeby NIE PRZEGRAĆ — i czego się bałem? Szukaj konkretnych sytuacji, nie ogólników.",
           questions: [
             "Grasz, żeby wygrać, czy grasz, żeby nie przegrać?",
             "Kiedy jaka postawa wygrywa?",
